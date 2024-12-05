@@ -1,9 +1,9 @@
 {
   "steam": {
-    "appId": 632360,
+    "appId": 3018760,
     "gameDistDepots": [
       {
-        "depotId": 632361,
+        "depotId": 3018762,
         "distributionName": "Windows",
         "isDefault": true
       }
@@ -18,32 +18,36 @@
     ],
     "assembliesToPublicise": [
       "Assembly-CSharp.dll",
-      "RoR2.dll"
+      "Assembly-CSharp-firstpass.dll"
     ],
     "isIL2Cpp": false
   },
   "nuget": {
-    "name": "RiskOfRain2.GameLibs.Steam",
-    "description": "Stripped and publicised game libraries for modding Risk of Rain 2."
+    "name": "UntetheredDemo.GameLibs.Steam",
+    "description": "Stripped and publicized game libraries for modding the Untethered Demo."
   },
   "gameVersions": [
     {
-      "buildId": 12605776,
-      "timeUpdated": 1699295903,
-      "gameVersion": "1.2.4-r4",
+      "buildId": 16526819,
+      "timeUpdated": 1733359723,
+      "gameVersion": "2.5.2-338",
       "depots": [
         {
-          "depotId": 632361,
-          "manifestId": 2538203695974683966
+          "depotId": 3018762,
+          "manifestId": 6457125326076603950
         }
       ],
       "frameworkTargets": [
         {
-          "tfm": "netstandard2.0",
+          "tfm": "netstandard2.1",
           "dependencies": [
             {
               "name": "UnityEngine.Modules",
-              "version": "2019.4.26"
+              "version": "2022.3.22"
+            },
+            {
+              "name": "Newtonsoft.JSON",
+              "version": "13.0.2"
             }
           ]
         }
