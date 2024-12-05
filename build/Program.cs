@@ -764,7 +764,8 @@ public sealed class MakePackagesTask : AsyncFrostingTaskBase<BuildContext>
             )
         };
         
-        metadata.SetProjectUrl("https://github.com/Lordfirespeed/NuGet-GameLib-Dehumidifier");
+        // metadata.SetProjectUrl("https://github.com/Lordfirespeed/NuGet-GameLib-Dehumidifier");
+        metadata.SetProjectUrl("https://github.com/RedstoneWizard08/NuGet-GameLib-Dehumidifier");
 
         ManifestFile[] files = [
             new()
